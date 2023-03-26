@@ -13,7 +13,9 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a href="#" class="navbar-brand">Bootstrap</a>
+    <a href="#" class="navbar-brand">Bootstrap
+      <img src="/" alt="" srcset="">
+    </a>
     <button class="navbar-toggler"
     type="button"
     data-bs-toggle = "collapse"
@@ -23,7 +25,19 @@
     aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div></div>
+    <div class="collapse navbar-collapse" id="mobileMenu">
+      <ul class="navbar-nav ms-auto text-center">
+        <li>
+          <a href="#" class="nav-link">home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">about</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link">function</a>
+        </li>
+      </ul>
+    </div>
   </nav>
 <!-- CONTENT -->
       <?php
