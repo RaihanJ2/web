@@ -13,8 +13,8 @@
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light">
-    <a href="#" class="navbar-brand">Bootstrap
-      <img src="/" alt="" srcset="">
+    <a href="#" class="navbar-brand">
+      <img src="img/sass-logo-50.svg">
     </a>
     <button class="navbar-toggler"
     type="button"
